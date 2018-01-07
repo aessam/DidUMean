@@ -6,6 +6,5 @@
 
 I will explain more later.
 
-[[https://github.com/aessam/DidUMean/blob/master/imgs/ScreenShot.png|alt="Results from 120 MB text file"]]
-
+Results from a 120 MB Text file. ![](https://raw.githubusercontent.com/aessam/DidUMean/master/imgs/ScreenShot.png)
 
