@@ -6,4 +6,6 @@
 
 I will explain more later.
 
-[Results]: https://raw.githubusercontent.com/aessam/DidUMean/master/imgs/ScreenShot.png "Results from 120 MB text file"
+[[https://github.com/aessam/DidUMean/blob/master/imgs/ScreenShot.png|alt="Results from 120 MB text file"]]
+
+
