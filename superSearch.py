@@ -2,7 +2,7 @@ import math
 
 def _calculate_distance(word):
     try:
-        return sum(map(lambda x: math.log(ord(x), 10) ** word.index(x), word)) ** 0.8
+        return int(sum(map(lambda x: ord(x) ** word.index(x), word)) ** 0.5)
     except:
         return -1
 
@@ -36,4 +36,3 @@ class SuperSearch():
         distance = _calculate_distance(searchKeyword)
         id = mbsearch(self.keys, distance)
         return ", ".join(self.keywords[self.keys[id]])
-
