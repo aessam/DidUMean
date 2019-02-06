@@ -2,7 +2,7 @@ import math
 
 def _calculate_distance(word):
     try:
-        return int(sum(map(lambda x: ord(x) ** word.index(x), word)) ** 0.5)
+        return int(sum(map(lambda x: ord(x) ** (word.index(x) + 1), word)) ** 0.5)
     except:
         return -1
 
